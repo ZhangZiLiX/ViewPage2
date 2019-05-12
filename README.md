@@ -226,7 +226,7 @@
 
    2.选择工程右键→Refactor→Migrate to Androidx：
    
-    https://img-blog.csdnimg.cn/20190311164212477.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mjc5NzA0OA==,size_16,color_FFFFFF,t_70
+   https://img-blog.csdnimg.cn/20190311164212477.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mjc5NzA0OA==,size_16,color_FFFFFF,t_70
      
    3.选中所有需要重命名的目录，执行Do Refactor：
    
