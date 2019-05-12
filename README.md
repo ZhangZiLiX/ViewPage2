@@ -206,3 +206,11 @@
 }
 
 
+三.RecyclerView和ViewPage2结合使用出现的坑点及解决方案：
+   1.将build tools更新到3.2.0，gradle更新到4.6，依赖库统一更新到28.0.0，这一步非常重要，否则会导致第二步不能完全转换成功（如果已经更新过了，可以忽略这一步）
+
+   2.选择工程右键→Refactor→Migrate to Androidx：
+     https://img-blog.csdnimg.cn/20190311164212477.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mjc5NzA0OA==,size_16,color_FFFFFF,t_70
+     
+   3.选中所有需要重命名的目录，执行Do Refactor：
+   https://img-blog.csdnimg.cn/2019031116422580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mjc5NzA0OA==,size_16,color_FFFFFF,t_70
